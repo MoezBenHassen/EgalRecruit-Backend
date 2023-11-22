@@ -27,8 +27,8 @@ public class ReclamationController {
         return reclamationService.addReclamation(reclamation);
     }
 
-    @PutMapping("/id")
-    public Reclamation updateReclamation(@RequestBody Reclamation reclamation, @PathVariable Long id) {
+    @PutMapping("")
+    public Reclamation updateReclamation(@RequestBody Reclamation reclamation) {
         return reclamationService.updateReclamation(reclamation);
     }
 
