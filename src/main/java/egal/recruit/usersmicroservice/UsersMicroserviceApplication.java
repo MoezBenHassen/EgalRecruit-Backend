@@ -1,4 +1,4 @@
-package egal.recruit.usersmicroservice;
+package egal.recruit.UsersMicroservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
