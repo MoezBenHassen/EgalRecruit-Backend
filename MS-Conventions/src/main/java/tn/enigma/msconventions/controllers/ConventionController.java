@@ -8,7 +8,8 @@ import tn.enigma.msconventions.services.ConventionService;
 
 import java.net.URI;
 
-@RestController("convention/")
+@RestController
+@RequestMapping("/convention")
 @AllArgsConstructor
 public class ConventionController {
     private ConventionService conventionService;
